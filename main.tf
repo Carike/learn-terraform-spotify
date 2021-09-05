@@ -7,9 +7,9 @@ terraform {
   }
 }
 
-variable "spotify_api_key" {
-  type = string
-}
+#variable "spotify_api_key" {
+#  type = string
+#}
 
 provider "spotify" {
   api_key = var.spotify_api_key
